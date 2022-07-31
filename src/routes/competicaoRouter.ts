@@ -11,5 +11,4 @@ competicaoRouter.put('/competicao/:id',competicaoController.atualizaProgresso)
 competicaoRouter.get('/encerradas',competicaoController.competicaoEncerrada)
 competicaoRouter.get('/andamento',competicaoController.competicaoEmAndamento)
 
-competicaoRouter.get('/',competicaoController.todasCompeticoes)
 

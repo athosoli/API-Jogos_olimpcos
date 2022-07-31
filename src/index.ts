@@ -20,7 +20,6 @@ app.post("/resultado", resultadoRouter)
 app.get("/resultado", resultadoRouter)
 app.get("/ranking", resultadoRouter)
 
-app.get("/", competicaoRouter)
 
 const server = app.listen(process.env.PORT ||3000, () => {
     if (server) {
