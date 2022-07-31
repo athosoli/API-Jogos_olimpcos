@@ -22,7 +22,7 @@ app.get("/ranking", resultadoRouter)
 
 app.get("/", competicaoRouter)
 
-const server = app.listen(3000, () => {
+const server = app.listen(process.env.PORT ||3000, () => {
     if (server) {
       const address = server.address() as AddressInfo;
       console.log(`Servidor rodando em http://localhost:${address.port}`);
