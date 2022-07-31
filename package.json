@@ -4,11 +4,9 @@
   "description": "o projeto Jogos Olimpcos Estande Virtual",
   "main": "index.js",
   "scripts": {
-    "dev": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
-    "test": "jest",
-    "start:dev": "nodemon ./src/index.ts",
-    "start": "node ./build/index.js",
-    "build": "tsc"
+    "dev": "ts-node-dev ./src/index.ts",
+    "start": "ts-node-dev ./src/index.ts",
+    "test": "ts-node-dev src/index.ts"
   },
   "keywords": [
     "api"
