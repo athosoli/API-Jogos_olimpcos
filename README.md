@@ -5,6 +5,7 @@
 ### Link da Documentação:
 #### [API Jogos Olímpicos](https://documenter.getpostman.com/view/15418246/UzdzTR5A)
 ##
+### [Link Api Heroku](http://jogos-olimpcos.herokuapp.com/)
 ### O que Funciona: 
 ##### Endpoints:
 ##### GET(/competicao/:id, /encerradas, /andamento, /competicao, /resultado, /ranking),
