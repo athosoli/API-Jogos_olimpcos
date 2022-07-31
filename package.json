@@ -4,9 +4,11 @@
   "description": "o projeto Jogos Olimpcos Estande Virtual",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node --inspect ./build/index.js",
     "dev": "tsnd --transpile-only --ignore-watch node_modules ./src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "start:dev": "nodemon ./src/index.ts",
+    "start": "node ./build/index.js",
+    "build": "tsc"
   },
   "keywords": [
     "api"
@@ -37,7 +39,7 @@
     "ts-jest": "^26.1.0",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^3.9.10",
+    "typescript": "3.9.10",
     "uuid": "^8.3.2"
   }
 }
